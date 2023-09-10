@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #101010;
+}
+
+html{
+    scroll-snap-type: y mandatory;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background: #101010;
+}
